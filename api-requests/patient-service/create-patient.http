@@ -1,0 +1,13 @@
+### POST a new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "Johnny Cena with kafka consumer test",
+  "email": "john.consumertest1@example.com",
+  "address": "123 main street jr",
+  "dateOfBirth": "1995-09-09",
+  "registeredDate": "2012-01-01"
+}
+
+###
